@@ -70,7 +70,11 @@ public class UI {
     }
     static void loadCustomFont() {
         try {
+<<<<<<< HEAD
             File fontLoc = new File(Main.filePath + "src" + File.separator + "res" File.separator + "fonts" + File.separator + "Montserrat-ExtraBold.ttf");
+=======
+            File fontLoc = new File(Main.filePath + File.separator + "src" + File.separator + "res" + File.separator + "fonts" + File.separator + "Montserrat-ExtraBold.ttf");
+>>>>>>> 6302360 (Added file separator on lines 73 and 82.)
             Main.mainFont = Font.createFont(Font.TRUETYPE_FONT, fontLoc);
         } catch (Exception e) {
             System.out.println("File not found");
