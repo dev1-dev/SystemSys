@@ -24,7 +24,7 @@ public class Main extends JFrame {
     static final String dateFormat = NOW.format(FORMATTER);
     static String filePath = System.getProperty("user.dir");
     static final Image img = new ImageIcon(filePath + File.separator + "src" + File.separator + "img" + File.separator + "png.png").getImage();
-    static final ImageIcon icon = new ImageIcon(filePath + File.separator + "src" + File.separator + "img" + File.separator + "png.png");
+    static final ImageIcon icon = new ImageIcon(filePath + File.separator + "src" + File.separator + "img" + File.separator + "logo1.png");
     static Font mainFont;
     static Font plainMainFont;
     static Color mainColor = new Color(117, 119, 255);
