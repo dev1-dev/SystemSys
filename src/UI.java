@@ -70,7 +70,7 @@ public class UI {
     }
     static void loadCustomFont() {
         try {
-            File fontLoc = new File(Main.filePath + "\\res\\fonts\\Montserrat-ExtraBold.ttf");
+            File fontLoc = new File(Main.filePath + "src" + File.separator + "res" File.separator + "fonts" + File.separator + "Montserrat-ExtraBold.ttf");
             Main.mainFont = Font.createFont(Font.TRUETYPE_FONT, fontLoc);
         } catch (Exception e) {
             System.out.println("File not found");
@@ -79,7 +79,7 @@ public class UI {
     }
     static void loadCustomPlainFont() {
         try {
-            File fontLoc = new File(Main.filePath + "\\res\\fonts\\Montserrat-VariableFont_wght.ttf");
+            File fontLoc = new File(Main.filePath + File.separator + "src" + File.separator + "res" + File.separator + "fonts" + File.separator + "Montserrat-VariableFont_wght.ttf");
             Main.plainMainFont = Font.createFont(Font.TRUETYPE_FONT, fontLoc);
         } catch (Exception e) {
             System.out.println("File not found");
